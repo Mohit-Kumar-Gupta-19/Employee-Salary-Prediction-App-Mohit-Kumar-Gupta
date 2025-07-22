@@ -1,1 +1,0 @@
-# Employee-Salary-Prediction-App-Mohit-Kumar-Gupta
