@@ -790,9 +790,9 @@ try:
     # If not, load the data and perform preprocessing again
     # This is a simplified assumption for generating the plot in app.py
     try:
-        full_data = pd.read_csv("/content/adult.csv")
+        full_data = pd.read_csv("adult.csv")
     except FileNotFoundError:
-        full_data = pd.read_csv("/content/adult 3.csv")
+        full_data = pd.read_csv("adult 3.csv")
 
     # Reapply preprocessing steps from the notebook
     full_data['workclass'] = full_data['workclass'].replace('?', 'Others')
