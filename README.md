@@ -6,7 +6,7 @@ This project presents an advanced machine learning solution designed to predict 
 
 The core of this project is a robust classification model that provides accurate insights into salary brackets, which can be valuable for socio-economic analysis, policy-making, or even personal career planning.
 
-**Live Demo:** [Access the deployed application here\!](https://79b45f829522.ngrok-free.app/)
+**Live Demo:** [Access the deployed application here\!](https://employee-salary-prediction-app-mohit-kumar-gupta-djgp4pmgtkau9.streamlit.app/)
 
 ## **🚀 Features**
 
