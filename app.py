@@ -26,7 +26,7 @@ try:
     # Using a placeholder here. In a real app, you'd load the original data or mappings explicitly.
     # For demonstration, loading a small sample to get unique countries
     try:
-        original_data_for_mapping = pd.read_csv("/adult.csv") # Use the original full dataset if available
+        original_data_for_mapping = pd.read_csv("adult.csv") # Use the original full dataset if available
     except FileNotFoundError:
          try:
              original_data_for_mapping = pd.read_csv("adult 3.csv") # Fallback to adult 3.csv if original not found
