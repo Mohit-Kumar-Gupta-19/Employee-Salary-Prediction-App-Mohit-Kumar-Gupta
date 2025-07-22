@@ -1,0 +1,13 @@
+# .streamlit/config.toml
+
+[compatibility]
+# This setting tells Streamlit Cloud which Python version to use for your app.
+# Python 3.10 is a widely supported version with good compatibility for many libraries.
+# If you encounter further issues, you could try "3.9" or "3.11".
+pythonVersion = "3.10"
+
+# Optional: Adjust server settings if needed, though usually not required for basic deployment.
+# [server]
+# port = 8501
+# enableCORS = false
+# enableXsrfProtection = false
